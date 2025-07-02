@@ -21,7 +21,7 @@ const navigation = useNavigation();
         if (username === 'kushkal' && password === 'kush123') {
             console.log(username, password, "kk")
             
-   navigation.navigate('Dashboard');
+   navigation.navigate('paymentdashboard');
 
   } else {
     alert("wrong password")
