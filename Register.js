@@ -27,7 +27,7 @@ const RegisterScreen = () => {
 
     }
 
-    console.log('Register:', { fullName, email, username, password });
+    console.log('Register11:', { fullName, email, username, password });
   };
 
   return (
