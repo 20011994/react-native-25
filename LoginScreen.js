@@ -21,7 +21,7 @@ const navigation = useNavigation();
         if (username === 'kushkal' && password === 'kush123') {
             console.log(username, password, "kk")
             
-   navigation.navigate('Register');
+   navigation.navigate('Dashboard');
 
   } else {
     alert("wrong password")
@@ -47,10 +47,9 @@ const navigation = useNavigation();
         onChangeText={setPassword}
         secureTextEntry
         autoCapitalize="none"
-         
-      />
-
-      <TouchableOpacity style={styles.button} onPress={handleLogin}>
+          />
+          
+          <TouchableOpacity style={styles.button} onPress={handleLogin}>
         <Text style={styles.buttonText}>Login</Text>
       </TouchableOpacity>
     </View>
